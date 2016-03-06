@@ -1,0 +1,35 @@
+{
+  "name": "Cessna Citation X",
+  "icao": "C750",
+  "engines": {
+    "number": 2,
+    "type": "J"
+  },
+  "weightclass": "S+",
+  "category": {
+    "srs": 3,
+    "lahso": 9,
+    "recat": "F"
+  },
+  "ceiling": 51000,
+  "rate": {
+    "climb":      4400,
+    "descent":    3000,
+    "accelerate": 10,
+    "decelerate": 5
+  },
+  "runway": {
+    "takeoff": 2.8,
+    "landing": 3.5
+  },
+  "speed":{
+    "min":     120,
+    "max":     400,
+    "landing": 135,
+    "cruise":  250
+  },
+  "capability": {
+    "ils": true,
+    "fix": true
+  }
+}

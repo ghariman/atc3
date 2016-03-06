@@ -1,0 +1,35 @@
+{
+  "name": "Airbus A320",
+  "icao": "A320",
+  "engines": {
+    "number": 2,
+    "type": "J"
+  },
+  "weightclass": "L",
+  "category": {
+    "srs": 3,
+    "lahso": 7,
+    "recat": "D"
+  },
+  "ceiling": 39000,
+  "rate": {
+    "climb":      3500,
+    "descent":    3000,
+    "accelerate": 7,
+    "decelerate": 4
+  },
+  "runway": {
+    "takeoff": 2.0,
+    "landing": 2.8
+  },
+  "speed":{
+    "min":     115,
+    "max":     250,
+    "landing": 130,
+    "cruise":  200
+  },
+  "capability": {
+    "ils": true,
+    "fix": true
+  }
+}

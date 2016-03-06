@@ -1,0 +1,35 @@
+{
+  "name": "Cessna 337 Super Skymaster",
+  "icao": "C337",
+  "engines": {
+    "number": 2,
+    "type": "P"
+  },
+  "weightclass": "S",
+  "category": {
+    "srs": 2,
+    "lahso": 3,
+    "recat": "F"
+  },
+  "ceiling": 19500,
+  "rate": {
+    "climb":      2000,
+    "descent":    1000,
+    "accelerate": 4,
+    "decelerate": 3
+  },
+  "runway": {
+    "takeoff": 1.0,
+    "landing": 1.7
+  },
+  "speed":{
+    "min":     50,
+    "max":     170,
+    "landing": 60,
+    "cruise":  150
+  },
+  "capability": {
+    "ils": false,
+    "fix": false
+  }
+}
