@@ -1,3 +1,5 @@
+## This is a CLONE of ZLSA ATC. Used for debugging/testing my code changes.
+
 ## Air Traffic Control
 
 An ATC simulator in HTML5.
