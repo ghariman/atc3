@@ -157,6 +157,8 @@
         ["aal", 5],
 	["aal/long", 2],
 	["asa", 1],
+	["jbu",2],
+	["vrd",5],
 	["fdx", 1]
       ],
       "type": "wave",
@@ -169,13 +171,11 @@
       "speed":    250,
       "fixes":    ["FAITH"],
       "airlines":  [
-        ["ual", 2],
-        ["swa", 2],
-        ["fastga", 1]
+        ["fastga", 10]
       ],
       "type": "random",
       "offset": 5,
-      "frequency": 2,
+      "frequency": 1,
       "altitude":  10000
     },
     {
@@ -187,6 +187,7 @@
         ["aal", 3],
         ["dal", 2],
 	["asa", 2],
+	["vrd",2],
         ["swa", 5]
       ],
       "type": "wave",
@@ -211,6 +212,8 @@
 	["ups", 1],
 	["asa", 8],
 	["fdx", 1],
+	["vrd",5],
+	["jbu",2],
         ["fastga", 1]
       ],
       "type": "random",
