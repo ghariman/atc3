@@ -132,7 +132,7 @@
       "OFFSHORE": ["SEPDY", "SENZY", "WAMMY", "SEGUL"],
       "EUGEN": ["SENZY", "ZUPAX", "EUGEN"],
       "QUIET": ["SASLY", "REBAS", "SASSU"],
-	"SHORLINE": ["OAK", "TAHDU", "SUZYE", "LINDEN"],
+	"SHORLINE": ["OAK", "TAHDU", "SUZYE"],
       "MOLEN": ["WESLA", "STINS", "MOLEN"]
     },
     "destinations": [
