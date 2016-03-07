@@ -136,7 +136,7 @@
       "MOLEN": ["WESLA", "STINS", "MOLEN"]
     },
     "destinations": [
-      290, 180, 160, 345, 045
+      290, 180, 160, 345, 45
     ],
     "type": "random",
     "offset": 0,
