@@ -203,7 +203,7 @@
       "_name":  "Sadde 6",
       "radial":   330,
       "speed":    250,
-      "fixes":    ["FIM", "SADDE", "SMO","SLI"],
+      "fixes":    ["FIM", "SADDE", "SMO", "SLI"],
       "airlines":  [
         ["ual", 10],
         ["baw", 10],
