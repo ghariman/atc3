@@ -19,6 +19,7 @@
     "speed": 10
   },
   "fixes": {
+	"JAVSI": ["N34d01m71", "W117d16m65"],
     "PFILA": ["N34d01m12.69", "W117d41m50.18"],
     "SALWA": ["N34d00m47.72", "W117d46m8.30"],
     "WLNUT": ["N34d00m22.60", "W117d50m26.38"],
@@ -202,7 +203,7 @@
       "_name":  "Sadde 6",
       "radial":   330,
       "speed":    250,
-      "fixes":    ["FIM", "SADDE", "SMO"],
+      "fixes":    ["FIM", "SADDE", "SMO","JAVSI"],
       "airlines":  [
         ["ual", 10],
         ["baw", 10],
