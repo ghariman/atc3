@@ -16,7 +16,7 @@
   "has_terrain": true,
   "wind": {
     "angle": 310,
-    "speed": 5
+    "speed": 20
   },
   "fixes": {
 	"OAK": ["N37.7322", "W122.2283"],
