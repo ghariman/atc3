@@ -169,12 +169,12 @@
         "28L": ["FAITH", "TEBIJ", "SJC", "BMRNG"],
         "28R": ["FAITH", "TEBIJ", "SJC", "BMRNG"]
       },
-      "body": ["BMRNG"],
+      "body": [""],
       "transitions": {
         "HRNER": ["HRNER"],
 		"TIPRE": ["TIPRE"]
       },
-      "draw": [["SIPLY","_SIPLY233-STINS144","STINS"], ["WESLA","STINS","MOLEN"], ["MOLEN","ENI*"]]
+      "draw": [["FAITH","TEBIJ","SJC","BMRNG"],["BMRNG","HRNER*"],["BMRNG","TIPRE*"]]
     }
   },
   "departures": {
