@@ -140,43 +140,6 @@
     }
   ],
   "sids": {
-    "OFFSH9": {
-      "icao": "OFFSH9",
-      "name": "Offshore Nine",
-      "rwy": {
-        "1L" : [["SEPDY", "A16+"], "WAMMY"],
-        "1R" : [["SEPDY", "A16+"], "WAMMY"],
-        "28L": [["SENZY", "A25+"], "WAMMY"],
-        "28R": [["SENZY", "A25+"], "WAMMY"]
-      },
-      "body": [["SEGUL", "A160+"], ["CYPRS", "A220+"], "MCKEY"],
-      "transitions": {
-        "FLW": ["MQO", "FLW"],
-        "RZS": ["MQO", "RZS"],
-        "GVO": ["MQO", "GVO"],
-        "SXC": ["DAISY", "BENET", "SXC"]
-      },
-      "draw": [["SEPDY","WAMMY"], ["SENZY","WAMMY","SEGUL","CYPRS","MCKEY"], ["MCKEY","MQO"], ["MQO","FLW*"], ["MQO","RZS*"], ["MQO","GVO*"], ["MCKEY","DAISY","BENET","SXC*"]]
-    },
-    
-  "PORTE7": {
-      "icao": "PORTE7",
-      "name": "PORTE SEVEN",
-      "rwy": {
-        "1L" : [["SEPDY", "A19+"], "PORTE"],
-        "1R" : [["SEPDY", "A19+"], "PORTE"],
-        "28L": [["SENZY", "A25+"], "PORTE"],
-        "28R": [["SENZY", "A25+"], "PORTE"]
-      },
-      "body": ["OSI", "WAGES"],
-      "transitions": {
-          "CZQ": ["CZQ"],
-          "PXE": ["PXE"],
-          "FLW": ["FLW"],
-          "AVE": ["AVE"]
-      },
-      "draw": [["SEPDY","PORTE"], ["SENZY","PORTE","OSI","WAGES"], ["WAGES","CZQ*"], ["WAGES","AVE*"], ["WAGES","PXN*"], ["WAGES", "FLW*"]]
-    },
     
 	"QUIET7": {
       "icao": "QUIET7",
@@ -236,7 +199,7 @@
       ["vir", 2]
     ],
     "destinations": [
-      "MOLEN7", "OFFSH9", "PORTE7", "QUIET7"
+      "MOLEN7", "QUIET7"
     ],
     "type": "random",
     "offset": 0,
