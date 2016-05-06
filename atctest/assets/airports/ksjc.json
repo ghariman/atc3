@@ -103,7 +103,7 @@
       "name":        ["30R", "12L"],
       "name_offset": [[0, 0.3], [0, 0.3]],
       "oldposition":  [0, 0.229],
-      "end":    [ ["N37.35207", "W121.915133"], ["N37.3740", "W121.939166"]],
+      "end":    [ ["N37.3523333", "W121.9153333"], ["N37.3750000", "W121.9401667"]],
       "length":      3.35,
       "lateral_separaton": 600,
       "ils":         [true, true]
@@ -112,7 +112,7 @@
       "name":        ["30L", "12R"],
       "name_offset": [[0, -0.2], [0, -0.3]],
       "oldposition":    [0, 0],
-      "end":    [["N37.35207", "W121.91899"], ["N37.37288", "W121.94019"]],
+      "end":    [["N37.3510000", "W121.9170000"], ["N37.3736667", "W121.9420000"]],
       "length":      3.35,
       "_note": "Lateral separation simulates visual approaches",
       "lateral_separaton": 600,
