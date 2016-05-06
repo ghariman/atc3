@@ -100,39 +100,23 @@
   },
   "runways":[
     {
-      "name":        ["28R", "10L"],
+      "name":        ["30R", "12L"],
       "name_offset": [[0, 0.3], [0, 0.3]],
       "oldposition":  [0, 0.229],
-      "end":    [ ["N37.6135324", "W122.3571410"], ["N37.6287386", "W122.3933911"]],
-      "length":      3.62,
-      "lateral_separaton": 300,
-      "ils":         [true, false]
+      "end":    [ ["N37.35207", "W121.195133"], ["N37.3740", "W121.939166"]],
+      "length":      3.35,
+      "lateral_separaton": 600,
+      "ils":         [true, true]
     },
     {
-      "name":        ["28L", "10R"],
+      "name":        ["30L", "12R"],
       "name_offset": [[0, -0.2], [0, -0.3]],
       "oldposition":    [0, 0],
-      "end":    [["N37.6117091", "W122.3583420"], ["N37.6262900", "W122.3931054"]],
-      "length":      3.47,
+      "end":    [["N37.35207", "W121.91899"], ["N37.37288", "W121.94019"]],
+      "length":      3.35,
       "_note": "Lateral separation simulates visual approaches",
       "lateral_separaton": 600,
       "ils":         [true, false]
-    },
-    {
-      "name":        ["19L", "1R"],
-      "name_offset": [[0.3, -0.1], [0.4, 0]],
-      "oldposition":    [0.8, 0.3],
-      "end":    [["N37.6273412","W122.3671104" ], ["N37.6063291", "W122.3810404"] ],
-      "length":      2.64,
-      "ils":         [false, false]
-    },
-    {
-      "name":        ["19R", "1L"],
-      "name_offset": [[-0.3, 0], [-0.3, 0.1]],
-      "oldposition":    [0.4, 0.3],
-      "end":    [["N37.6264803", "W122.3706090"], ["N37.6078970","W122.3829280"]],
-      "length":      2.33,
-      "ils":         [false, false]
     }
   ],
   "sids": {
