@@ -166,8 +166,10 @@
       "icao": "LOUPE",
       "name": "Loop",
       "rwy": {
-        "28L": ["FAITH", "TEBIJ", "SJC", "BMRNG"],
-        "28R": ["FAITH", "TEBIJ", "SJC", "BMRNG"]
+        "30R": ["FAITH", "TEBIJ", "SJC", "BMRNG"],
+        "30L": ["FAITH", "TEBIJ", "SJC", "BMRNG"],
+		"12L": ["SJC","BMRNG"],
+		"12R": ["SJC","BMRNG"]
       },
       "body": [""],
       "transitions": {
