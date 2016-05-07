@@ -166,15 +166,15 @@
       "icao": "LOUPE",
       "name": "Loop",
       "rwy": {
-        "30R": ["FAITH", "SPTNS","FORUL","BMRNG"],
-        "30L": ["FAITH", "SPTNS","FORUL","BMRNG"]
+        "30R": ["FAITH", "SPTNS","FORUL"],
+        "30L": ["FAITH", "SPTNS","FORUL"]
       },
       "body": [""],
       "transitions": {
-        "HRNER": ["HRNER"],
-		"TIPRE": ["TIPRE"]
+        "HRNER": ["BMRNG","HRNER"],
+		"TIPRE": ["BMRNG","TIPRE"]
       },
-      "draw": [["FAITH","SPTNS","FORUL","BMRNG"],["BMRNG","HRNER*"],["BMRNG","TIPRE*"]]
+      "draw": [["FAITH","SPTNS","FORUL"],["FORUL","BMRNG","HRNER*"],["FORUL","BMRNG","TIPRE*"]]
     }
   },
   "departures": {
