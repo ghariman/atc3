@@ -174,7 +174,7 @@
         "HRNER": ["HRNER"],
 		"TIPRE": ["TIPRE"]
       },
-      "draw": [["FAITH","SPTNS","FORUL"],["BMRNG","HRNER*"],["BMRNG","TIPRE*"]]
+      "draw": [["FAITH","SPTNS","FORUL","BMRNG"],["BMRNG","HRNER*"],["BMRNG","TIPRE*"]]
     }
   },
   "departures": {
