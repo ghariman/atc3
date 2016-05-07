@@ -166,15 +166,15 @@
       "icao": "LOUPE",
       "name": "Loop",
       "rwy": {
-        "30R": ["FAITH", "TEBIJ","FORUL","SJC","BMRNG"],
-        "30L": ["FAITH", "TEBIJ","FORUL","SJC","BMRNG"]
+        "30R": ["FAITH", "TEBIJ","SJC","BMRNG"],
+        "30L": ["FAITH", "TEBIJ","SJC","BMRNG"]
       },
       "body": [""],
       "transitions": {
         "HRNER": ["HRNER"],
 		"TIPRE": ["TIPRE"]
       },
-      "draw": [["FAITH","FORUL","SJC","BMRNG"],["BMRNG","HRNER*"],["BMRNG","TIPRE*"]]
+      "draw": [["FAITH","TEBIJ","SJC","BMRNG"],["BMRNG","HRNER*"],["BMRNG","TIPRE*"]]
     }
   },
   "departures": {
