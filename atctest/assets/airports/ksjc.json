@@ -171,10 +171,10 @@
       },
       "body": [""],
       "transitions": {
-        "HRNER": ["SJC","BMRNG","HRNER"],
-		"TIPRE": ["SJC","BMRNG","TIPRE"]
+        "HRNER": ["FORUL","BMRNG","HRNER"],
+		"TIPRE": ["FORUL","BMRNG","TIPRE"]
       },
-      "draw": [["FAITH","SPTNS"],["SPTNS","SJC","BMRNG","HRNER*"],["SPTNS","SJC","BMRNG","TIPRE*"]]
+      "draw": [["FAITH","SPTNS"],["SPTNS","FORUL","BMRNG","HRNER*"],["SPTNS","FORUL","BMRNG","TIPRE*"]]
     }
   },
   "departures": {
