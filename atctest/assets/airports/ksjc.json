@@ -115,7 +115,7 @@
 	"SJC": ["N37d22m28.96", "W121d56m40.79"],
 	"HRNER": ["N38d19m0.72", "W122d1m34.71"],
 	"TIPRE": ["N38d12m21.00", "W121d2m9.00"],
-	"TEBIJ": ["N37d21m16.27", "W121d50m9.27"]
+	"SPTNS": ["N37d19m39.71", "W121d47m12.91"]
 
   },
   
@@ -166,15 +166,15 @@
       "icao": "LOUPE",
       "name": "Loop",
       "rwy": {
-        "30R": ["FAITH", "TEBIJ","SJC","BMRNG"],
-        "30L": ["FAITH", "TEBIJ","SJC","BMRNG"]
+        "30R": ["FAITH", "SPTNS"],
+        "30L": ["FAITH", "SPTNS"]
       },
       "body": [""],
       "transitions": {
-        "HRNER": ["HRNER"],
-		"TIPRE": ["TIPRE"]
+        "HRNER": ["SJC","BMRNG","HRNER"],
+		"TIPRE": ["SJC","BMRNG","TIPRE"]
       },
-      "draw": [["FAITH","TEBIJ","SJC","BMRNG"],["BMRNG","HRNER*"],["BMRNG","TIPRE*"]]
+      "draw": [["FAITH","SPTNS"],["SPTNS","SJC","BMRNG","HRNER*"],["SPTNS","SJC","BMRNG","TIPRE*"]]
     }
   },
   "departures": {
