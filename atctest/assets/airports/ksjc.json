@@ -168,15 +168,15 @@
       "rwy": {
         "30R": ["FAITH", "FORUL"],
         "30L": ["FAITH", "FORUL"],
-		"12L": ["SJC","BMRNG"],
-		"12R": ["SJC","BMRNG"]
+		"12L": ["FORUL","SJC","BMRNG"],
+		"12R": ["FORUL","SJC","BMRNG"]
       },
       "body": [""],
       "transitions": {
         "HRNER": ["SJC","BMRNG","HRNER"],
 		"TIPRE": ["SJC","BMRNG","TIPRE"]
       },
-      "draw": [["FAITH","TEBIJ","SJC","BMRNG"],["BMRNG","HRNER*"],["BMRNG","TIPRE*"]]
+      "draw": [["FAITH","FORUL","SJC","BMRNG"],["BMRNG","HRNER*"],["BMRNG","TIPRE*"]]
     }
   },
   "departures": {
