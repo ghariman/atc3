@@ -168,8 +168,8 @@
       "rwy": {
         "30R": ["FAITH", "FORUL"],
         "30L": ["FAITH", "FORUL"],
-		"12L": ["FORUL","SJC","BMRNG"],
-		"12R": ["FORUL","SJC","BMRNG"]
+		"12L": ["FORUL"],
+		"12R": ["FORUL"]
       },
       "body": [""],
       "transitions": {
