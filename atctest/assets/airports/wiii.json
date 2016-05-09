@@ -130,12 +130,7 @@
   },
   "departures": {
     "airlines": [
-      ["swa", 35],
-      ["aal", 12],
-      ["ual", 9],
-      ["asa", 8],
-      ["dal", 8],
-      ["airtaxi", 12],
+      ["gia", 35],
       ["lightga", 5]
     ],
     "destinations": [

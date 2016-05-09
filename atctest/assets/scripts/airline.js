@@ -219,6 +219,7 @@ function airline_init() {
   airline_load("USAF");
   airline_load("VIR");
   airline_load("VRD");
+  airline_load("GIA");
 }
 
 function airline_load(icao) {
