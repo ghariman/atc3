@@ -132,7 +132,7 @@
     "airlines": [
         ["gia", 35],
         ["ctv", 12],
-		["lni", 35]
+		["lni", 35],
         ["airtaxi", 12]
     ],
     "destinations": [
@@ -157,7 +157,7 @@
       "airlines": [
         ["gia", 35],
         ["ctv", 12],
-		["lni", 35]
+		["lni", 35],
         ["airtaxi", 12]
       ]
     },
@@ -175,7 +175,7 @@
       "airlines": [
         ["gia", 35],
         ["ctv", 12],
-		["lni", 35]
+		["lni", 35],
         ["airtaxi", 12]
       ]
     },
@@ -193,7 +193,7 @@
       "airlines": [
         ["gia", 35],
         ["ctv", 12],
-		["lni", 35]
+		["lni", 35],
         ["airtaxi", 12]
       ]
     },
@@ -210,7 +210,7 @@
       "airlines": [
         ["gia", 35],
         ["ctv", 12],
-		["lni", 35]
+		["lni", 35],
         ["airtaxi", 12]
       ]
     }
