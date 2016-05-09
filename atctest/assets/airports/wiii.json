@@ -153,14 +153,14 @@
     },
     {
       "_name": "BUNIK",
-      "radial": 360,
+      "radial": 005,
       "speed": 250,
       "type": "cyclic",
       "offset": 12,
       "period": 23,
       "frequency": [3, 12],
       "altitude": 10000,
-      "fixes": ["BUNIK","NOKTA"],
+      "fixes": ["BUNIK", "NOKTA"],
       "airlines": [
         ["swa", 35],
         ["aal", 12],
@@ -180,7 +180,7 @@
       "period": 21,
       "frequency": [2, 8],
       "altitude": 10000,
-	    "fixes": ["CARLI","NOKTA"],
+	  "fixes": ["CARLI", "NOKTA"],
       "airlines": [
         ["swa", 35],
         ["aal", 12],
@@ -199,7 +199,7 @@
       "period": 18,
       "frequency": [1, 4],
       "altitude": 10000,
-	  "fixes": ["DENDY","DKI"],
+	  "fixes": ["DENDY", "DKI"],
       "airlines": [
         ["swa", 35],
         ["aal", 12],
@@ -211,7 +211,7 @@
     },
     {
       "_name": "LEPAS",
-      "radial": 50,
+      "radial": 050,
       "speed": 250,
       "type": "cyclic",
       "offset": 8,
