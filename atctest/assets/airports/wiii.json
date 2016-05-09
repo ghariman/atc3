@@ -135,7 +135,8 @@
 		["ctv",20],
 		["eva/long",5],
 		["cpa",10],
-		["jal/long",5]
+		["jal/long",5],
+		["kal/long",5]
     ],
     "destinations": [
       "HALIM1", "CKG2", "DKI2"

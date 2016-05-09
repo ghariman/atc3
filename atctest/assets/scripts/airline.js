@@ -222,6 +222,7 @@ function airline_init() {
   airline_load("GIA");
   airline_load("LNI");
   airline_load("CTV");
+  airline_load("SJY");
 }
 
 function airline_load(icao) {
