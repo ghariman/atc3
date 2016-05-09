@@ -43,10 +43,12 @@
 	"CKG": ["S6d11.3m0", "E106d31.8m0"],
 	"HLM": ["S6d16.3m0", "E106d53.2m0"],
 	"PW": ["S6d34.0m0", "E107d27.0m0"],
+	
 	"GL": ["S6d8.8m0", "E106d34.5m0"],
 	"GR": ["S6d10.4m0", "E106d34.0m0"],
 	"CL": ["S6d6.3m0", "E106d44.1m0"],
 	"CR": ["S6d5.2m0", "E106d43.4m0"],
+	
 	"NOKTA": ["S5d28.4m0", "E106d51.4m0"],
 	"ESALA": ["S5d57.7m0", "E107d19.8m0"],
 	"CARLI": ["S5d15.6m0", "E106d12.8m0"],
@@ -83,7 +85,7 @@
       "icao": "HALIM1",
       "name": "Halim One",
       "rwy": {
-        "25R" : ["GL", "HLM"],
+        "25R": ["GL", "HLM"],
         "25L": ["GR", "HLM"]
       },
       "transitions": {
@@ -97,7 +99,7 @@
       "icao": "CKG2",
       "name": "Cengkareng Two",
       "rwy": {
-        "25R" : ["GL", "SIKAD"],
+        "25R": ["GL", "SIKAD"],
         "25L": ["GR", "SIKAD"]
       },
       "transitions": {
