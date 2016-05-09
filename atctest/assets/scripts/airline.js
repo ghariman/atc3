@@ -220,6 +220,8 @@ function airline_init() {
   airline_load("VIR");
   airline_load("VRD");
   airline_load("GIA");
+  airline_load("LNI");
+  airline_load("CTV");
 }
 
 function airline_load(icao) {
