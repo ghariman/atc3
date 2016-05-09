@@ -1068,7 +1068,7 @@ function airport_init() {
   airport_load("uudd");
   airport_load("vhhh");
   airport_load("eddf");
-  airport_load("ksjc");
+  airport_load("wiii");
 }
 
 function airport_ready() {
