@@ -58,7 +58,7 @@
 	"SPADA": ["S5d40.7m0", "E107d54.6m0"],
 	"RENDA": ["S7d15.3m0", "E107d13.4m0"],
 	
-	"SIKAD": ["S5dm44.3m0", "E106d16.3m0"],
+	"SIKAD": ["S5d44.3m0", "E106d16.3m0"],
 	"DOLTA": ["S5d7.6m0", "E105d55.5m0"],
 	"TULIP": ["S5d25.4m0", "E105d37.8m0"],
 	"KASAL": ["S6d32.6m0", "E107d56.4m0"]
@@ -81,6 +81,20 @@
     }
   ],
   "sids": {
+      "DKI2": {
+      "icao": "DKI2",
+      "name": "Jakarta Two",
+      "rwy": {
+        "25R": ["GL", ["DKI","A12+"]],
+        "25L": ["GR", ["DKI","A12+"]]
+      },
+      "transitions": {
+        "DENDY": ["DENDY"],
+		"LEPAS": ["LEPAS"],
+		"SPADA": ["SPADA"]
+      },
+      "draw": [["DKI", "DENDY*"],["DKI","LEPAS*"],["DKI","SPADA*"]]
+    },
     "HALIM1": {
       "icao": "HALIM1",
       "name": "Halim One",
@@ -120,7 +134,7 @@
       ["lightga", 5]
     ],
     "destinations": [
-      "HALIM1", "CKG2"
+      "HALIM1", "CKG2", "DKI2"
     ],
     "type": "cyclic",
     "offset": 0,
