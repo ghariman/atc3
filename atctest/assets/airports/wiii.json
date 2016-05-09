@@ -152,15 +152,15 @@
       "airlines": [["lightga", 1]]
     },
     {
-      "_name": "BARET FIVE",
-      "radial": 55,
+      "_name": "BUNIK",
+      "radial": 355,
       "speed": 250,
       "type": "cyclic",
       "offset": 12,
       "period": 23,
       "frequency": [3, 12],
       "altitude": 10000,
-      "fixes": ["BARET", "IFHEJ", "VYDDA"],
+      "fixes": ["BUNIK","NOKTA"],
       "airlines": [
         ["swa", 35],
         ["aal", 12],
