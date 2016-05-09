@@ -152,15 +152,15 @@
       "airlines": [["lightga", 1]]
     },
     {
-      "_name": "BUNIK",
-      "radial": 5,
+      "_name": "BARET FIVE",
+      "radial": 55,
       "speed": 250,
       "type": "cyclic",
       "offset": 12,
       "period": 23,
       "frequency": [3, 12],
       "altitude": 10000,
-      "fixes": ["BUNIK", "NOKTA"],
+      "fixes": ["BARET", "IFHEJ", "VYDDA"],
       "airlines": [
         ["swa", 35],
         ["aal", 12],
@@ -171,7 +171,7 @@
       ]
     },
     {
-      "_name": "CARLI",
+      "_name": "HUBRD ONE",
       "radial": 310,
       "heading": 140,
       "speed": 250,
@@ -180,7 +180,6 @@
       "period": 21,
       "frequency": [2, 8],
       "altitude": 10000,
-	  "fixes": ["CARLI", "NOKTA"],
       "airlines": [
         ["swa", 35],
         ["aal", 12],
@@ -191,15 +190,15 @@
       ]
     },
     {
-      "_name": "DENDY",
-      "radial": 30,
+      "_name": "SHAMU ONE",
+      "radial": 290,
+      "heading": 115,
       "speed": 250,
       "type": "cyclic",
       "offset": 15,
       "period": 18,
       "frequency": [1, 4],
       "altitude": 10000,
-	  "fixes": ["DENDY", "DKI"],
       "airlines": [
         ["swa", 35],
         ["aal", 12],
@@ -210,15 +209,15 @@
       ]
     },
     {
-      "_name": "LEPAS",
-      "radial": 50,
+      "_name": "LYNDI FOUR",
+      "radial": 80,
       "speed": 250,
       "type": "cyclic",
       "offset": 8,
       "period": 15,
       "frequency": [1, 4],
       "altitude": 10000,
-      "fixes": ["LEPAS", "DKI"],
+      "fixes": ["PILLO", "VYDDA"],
       "airlines": [
         ["swa", 35],
         ["aal", 12],
