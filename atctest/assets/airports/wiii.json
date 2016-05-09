@@ -59,7 +59,7 @@
 	"SIKAD": ["S5dm44.3m0", "E106d16.3m0"],
 	"DOLTA": ["S5d7.6m0", "E105d55.5m0"],
 	"TULIP": ["S5d25.4m0", "E105d37.8m0"],
-	"KASAL": ["S632.6m0", "E107d56.4m0"]
+	"KASAL": ["S6d32.6m0", "E107d56.4m0"]
 	
   },
   "runways": [
@@ -79,53 +79,32 @@
     }
   ],
   "sids": {
-    "BRDR7": {
-      "icao": "BRDR7",
-      "name": "Border Seven",
+    "HALIM1": {
+      "icao": "HALIM1",
+      "name": "Halim One",
       "rwy": {
-        "9" : ["BROWS"],
-        "27": ["PGY", "BROWS"]
+        "25R" : ["GL", "HLM"],
+        "25L": ["GR", "HLM"]
       },
       "transitions": {
-        "JLI": ["JLI"]
+        "KASAL": ["KASAL"],
+		"PW": ["PW"],
+		"RENDA": ["RENDA"]
       },
-      "draw": [["PGY","BROWS","JLI*"]]
+      "draw": [["HLM", "KASAL*"],["HLM","PW*"],["HLM","RENDA*"]]
     },
-    "LNSAY5": {
-      "icao": "LNSAY5",
-      "name": "Lindsay Five",
+    "CKG2": {
+      "icao": "CKG2",
+      "name": "Cengkareng Two",
       "rwy": {
-        "9" : ["BOKNE", "MAFAN", "LNSAY"],
-        "27": ["BOKNE", "MAFAN", "LNSAY"]
+        "25R" : ["GL", "SIKAD"],
+        "25L": ["GR", "SIKAD"]
       },
       "transitions": {
-        "FALCC": ["FALCC"]
+		"DOLTA": ["DOLTA"],
+		"TULIP": ["TULIP"],
       },
-      "draw": [["BOKNE","MAFAN","FALCC*"]]
-    },
-    "PEBLE6": {
-      "icao": "PEBLE6",
-      "name": "Peble Six",
-      "rwy": {
-        "9" : ["SARGS", "MELDY"],
-        "27": ["SARGS", "MELDY"]
-      },
-      "transitions": {
-        "PEBLE": ["PEBLE"]
-      },
-      "draw": [["SARGS", "MELDY", "PEBLE*"]]
-    },
-    "POGGI5": {
-      "icao": "POGGI5",
-      "name": "Poggie Five",
-      "rwy": {
-        "9" : ["LOWMA", "PGY"],
-        "27": ["LOWMA", "PGY"]
-      },
-      "transitions": {
-        "BROWS": ["BROWS"]
-      },
-      "draw": [["LOWMA","PGY","BROWS*"]]
+      "draw": [["SIKAD","DOLTA*"],["SIKAD","TULIP*"]]
     }
   },
   "departures": {
@@ -139,7 +118,7 @@
       ["lightga", 5]
     ],
     "destinations": [
-      "BRDR7", "LNSAY5", "PEBLE6", "POGGI5"
+      "HALIM1", "CKG2"
     ],
     "type": "cyclic",
     "offset": 0,
