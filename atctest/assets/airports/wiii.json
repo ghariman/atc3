@@ -9,7 +9,7 @@
   "icao": "WIII",
   "iata": "CGK",
   "magnetic_north": 0.0,
-  "ctr_radius": 80,
+  "ctr_radius": 100,
   "ctr_ceiling": 30000,
   "initial_alt": 6000,
   "position": ["S6d7.04m0", "E106d39.7m0"],
@@ -40,6 +40,7 @@
     "VYDDA": ["N32d40.30", "W116d56.15"],
 	
 	"DKI": ["S5d57.7m0", "E107d2.1m0"],
+	"DKIR": ["S6d4m18.44", "E106d39m42.46"],
 	"CKG": ["S6d11.3m0", "E106d31.8m0"],
 	"HLM": ["S6d16.3m0", "E106d53.2m0"],
 	"PW": ["S6d34.0m0", "E107d27.0m0"],
@@ -85,8 +86,10 @@
       "icao": "DKI2",
       "name": "Jakarta Two",
       "rwy": {
-        "25R": ["GL", ["DKI","A12+"]],
-        "25L": ["GR", ["DKI","A12+"]]
+        "25R": ["GL", "DKIR",["DKI","A12+"]],
+        "25L": ["GR", "DKIR",["DKI","A12+"]],
+		"07L": ["CR", ["DKI","A12+"]],
+		"07R": ["CL", ["DKI","A12+"]]
       },
       "transitions": {
         "DENDY": ["DENDY"],
@@ -114,7 +117,9 @@
       "name": "Cengkareng Two",
       "rwy": {
         "25R": ["GL", "SIKAD"],
-        "25L": ["GR", "SIKAD"]
+        "25L": ["GR", "SIKAD"],
+		"07L": ["CR","SIKAD"],
+		"07R": ["CL","SIKAD"]
       },
       "transitions": {
 		"DOLTA": ["DOLTA"],
