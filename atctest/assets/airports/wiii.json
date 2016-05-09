@@ -40,7 +40,7 @@
     "VYDDA": ["N32d40.30", "W116d56.15"],
 	
 	"DKI": ["S5d57.7m0", "E107d2.1m0"],
-	"DKIR": ["S6d4m18.44", "E106d39m42.46"],
+	"DKIR": ["S6d1m24.44", "E106d39m11.46"],
 	"CKG": ["S6d11.3m0", "E106d31.8m0"],
 	"HLM": ["S6d16.3m0", "E106d53.2m0"],
 	"PW": ["S6d34.0m0", "E107d27.0m0"],
@@ -96,7 +96,7 @@
 		"LEPAS": ["LEPAS"],
 		"SPADA": ["SPADA"]
       },
-      "draw": [["DKI", "DENDY*"],["DKI","LEPAS*"],["DKI","SPADA*"]]
+      "draw": [["DKIR","DKI", "DENDY*"],["DKIR","DKI","LEPAS*"],["DKIR","DKI","SPADA*"]]
     },
     "HALIM1": {
       "icao": "HALIM1",
