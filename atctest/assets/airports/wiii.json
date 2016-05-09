@@ -130,7 +130,8 @@
   },
   "departures": {
     "airlines": [
-        ["gia", 35]
+        ["gia", 35],
+		["lni",35]
     ],
     "destinations": [
       "HALIM1", "CKG2", "DKI2"
@@ -152,7 +153,8 @@
       "altitude": 10000,
       "fixes": ["BUNIK","NOKTA"],
       "airlines": [
-        ["gia", 35]
+        ["gia", 35],
+		["lni",35]
       ]
     },
     {
@@ -167,7 +169,8 @@
       "altitude": 10000,
 	  "fixes": ["CARLI","NOKTA"],
       "airlines": [
-        ["gia", 35]
+        ["gia", 35],
+		["lni",35]
       ]
     },
     {
@@ -182,7 +185,8 @@
       "altitude": 10000,
 	  "fixes": ["DENDY","DKI"],
       "airlines": [
-        ["gia", 35]
+        ["gia", 35],
+		["lni",35]
       ]
     },
     {
@@ -196,7 +200,8 @@
       "altitude": 10000,
       "fixes": ["SPADA", "DKI"],
       "airlines": [
-        ["gia", 35]
+        ["gia", 35],
+		["lni",35]
       ]
     }
   ]
