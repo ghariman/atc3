@@ -104,7 +104,7 @@
       },
       "transitions": {
 		"DOLTA": ["DOLTA"],
-		"TULIP": ["TULIP"],
+		"TULIP": ["TULIP"]
       },
       "draw": [["SIKAD","DOLTA*"],["SIKAD","TULIP*"]]
     }
