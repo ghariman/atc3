@@ -153,7 +153,7 @@
     },
     {
       "_name": "BUNIK",
-      "radial": 005,
+      "radial": 5,
       "speed": 250,
       "type": "cyclic",
       "offset": 12,
@@ -192,7 +192,7 @@
     },
     {
       "_name": "DENDY",
-      "radial": 030,
+      "radial": 30,
       "speed": 250,
       "type": "cyclic",
       "offset": 15,
@@ -211,7 +211,7 @@
     },
     {
       "_name": "LEPAS",
-      "radial": 050,
+      "radial": 50,
       "speed": 250,
       "type": "cyclic",
       "offset": 8,
