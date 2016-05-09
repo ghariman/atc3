@@ -191,7 +191,7 @@
       ]
     },
     {
-      "_name": "SHAMU ONE",
+      "_name": "DENDY",
       "radial": 290,
       "heading": 115,
       "speed": 250,
@@ -200,6 +200,7 @@
       "period": 18,
       "frequency": [1, 4],
       "altitude": 10000,
+	  "fixes": ["DENDY","DKI"],
       "airlines": [
         ["swa", 35],
         ["aal", 12],
@@ -210,7 +211,7 @@
       ]
     },
     {
-      "_name": "LYNDI FOUR",
+      "_name": "SPADA",
       "radial": 80,
       "speed": 250,
       "type": "cyclic",
@@ -218,7 +219,7 @@
       "period": 15,
       "frequency": [1, 4],
       "altitude": 10000,
-      "fixes": ["PILLO", "VYDDA"],
+      "fixes": ["SPADA", "DKI"],
       "airlines": [
         ["swa", 35],
         ["aal", 12],
