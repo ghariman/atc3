@@ -1,20 +1,20 @@
 {
-  "name": "Seokarno-Hatta International Airport",
+  "name": "Kuala Namu International Airport",
   "level": "easy",
   "radio": {
-    "twr": "Seokarno-Hatta Tower",
-    "app": "Jakarta Approach",
-    "dep": "Jakarta Departure"
+    "twr": "Medan Tower",
+    "app": "Medan Approach",
+    "dep": "Medan Departure"
   },
-  "icao": "WIII",
-  "iata": "CGK",
+  "icao": "WIMM",
+  "iata": "KNO",
   "magnetic_north": 0.0,
   "ctr_radius": 100,
   "ctr_ceiling": 30000,
   "initial_alt": 6000,
-  "position": ["S6d7.04m0", "E106d39.7m0"],
+  "position": ["N3d38.53m0", "E98d53.12m0"],
   "rr_radius_nm": 10.0,
-  "rr_center": ["S6d7.04m0", "E106d39.7m0"],
+  "rr_center": ["N3d38.53m0", "E98d53.12m0"],
   "has_terrain": false,
   "wind": {
     "angle": 240,
@@ -45,22 +45,17 @@
 	"SIKAD": ["S5d44.3m0", "E106d16.3m0"],
 	"DOLTA": ["S5d7.6m0", "E105d55.5m0"],
 	"TULIP": ["S5d25.4m0", "E105d37.8m0"],
-	"KASAL": ["S6d32.6m0", "E107d56.4m0"]
+	"KASAL": ["S6d32.6m0", "E107d56.4m0"],
+	
+	"MDN": ["N3d30m16.38", "E98d36m27.90"]
 	
   },
   "runways": [
-  {
-      "name": ["07R", "25L"],
-      "name_offset": [[0, 0], [0, 0]],
-      "end":    [["S6d8.55m0", "E106d38.62m0"], ["S6d7.82m0", "E106d40.46m0"]],
-      "length": 3.6,
-      "ils": [true, true]
-    },
     {
-      "name": ["07L", "25R"],
+      "name": ["05", "23"],
       "name_offset": [[0, 0], [0, 0]],
-      "end":    [["S6d7.25m0", "E106d38.33m0"], ["S6d6.54m0", "E106d40.15m0"]],
-      "length": 3.6,
+      "end":    [["N3d33.4m0", "E98d39.85m0"], ["N3d34.2m0", "E98d40.88m0"]],
+      "length": 2.9,
       "ils": [true, true]
     }
   ],
