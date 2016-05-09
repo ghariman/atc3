@@ -17,7 +17,7 @@
   "rr_center": ["S6d7.04m0", "E106d39.7m0"],
   "has_terrain": false,
   "wind": {
-    "angle": 300,
+    "angle": 240,
     "speed": 8
   },
   "fixes": {
@@ -53,7 +53,13 @@
 	"BUNIK": ["S4d51.7m0", "E106d37.4m0"],
 	"DENDY": ["S5d11.8m0", "E107d36.4m0"],
 	"LEPAS": ["S5d26.0m0", "E107d47.3m0"],
-	"SPADA": ["S5d40.7m0", "E107d54.6m0"]
+	"SPADA": ["S5d40.7m0", "E107d54.6m0"],
+	"RENDA": ["S7d15.3m0", "E107d13.4m0"],
+	
+	"SIKAD": ["S5dm44.3m0", "E106d16.3m0"],
+	"DOLTA": ["S5d7.6m0", "E105d55.5m0"],
+	"TULIP": ["S5d25.4m0", "E105d37.8m0"],
+	"KASAL": ["S632.6m0", "E107d56.4m0"]
 	
   },
   "runways": [
