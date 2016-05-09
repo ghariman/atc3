@@ -130,8 +130,10 @@
   },
   "departures": {
     "airlines": [
-      ["gia", 35],
-      ["lightga", 5]
+        ["gia", 35],
+        ["ctv", 12],
+		["lni", 35]
+        ["airtaxi", 12]
     ],
     "destinations": [
       "HALIM1", "CKG2", "DKI2"
@@ -155,6 +157,7 @@
       "airlines": [
         ["gia", 35],
         ["ctv", 12],
+		["lni", 35]
         ["airtaxi", 12]
       ]
     },
@@ -170,11 +173,9 @@
       "altitude": 10000,
 	  "fixes": ["CARLI","NOKTA"],
       "airlines": [
-        ["swa", 35],
-        ["aal", 12],
-        ["ual", 9],
-        ["asa", 8],
-        ["dal", 8],
+        ["gia", 35],
+        ["ctv", 12],
+		["lni", 35]
         ["airtaxi", 12]
       ]
     },
@@ -190,11 +191,9 @@
       "altitude": 10000,
 	  "fixes": ["DENDY","DKI"],
       "airlines": [
-        ["swa", 35],
-        ["aal", 12],
-        ["ual", 9],
-        ["asa", 8],
-        ["dal", 8],
+        ["gia", 35],
+        ["ctv", 12],
+		["lni", 35]
         ["airtaxi", 12]
       ]
     },
@@ -209,11 +208,9 @@
       "altitude": 10000,
       "fixes": ["SPADA", "DKI"],
       "airlines": [
-        ["swa", 35],
-        ["aal", 12],
-        ["ual", 9],
-        ["asa", 8],
-        ["dal", 8],
+        ["gia", 35],
+        ["ctv", 12],
+		["lni", 35]
         ["airtaxi", 12]
       ]
     }
