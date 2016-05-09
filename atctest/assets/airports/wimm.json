@@ -9,11 +9,11 @@
   "icao": "WIMM",
   "iata": "KNO",
   "magnetic_north": 0.0,
-  "ctr_radius": 100,
+  "ctr_radius": 80,
   "ctr_ceiling": 30000,
   "initial_alt": 6000,
   "position": ["N3d38.53m0", "E98d53.12m0"],
-  "rr_radius_nm": 10.0,
+  "rr_radius_nm": 5.0,
   "rr_center": ["N3d38.53m0", "E98d53.12m0"],
   "has_terrain": false,
   "wind": {
