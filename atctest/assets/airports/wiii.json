@@ -154,10 +154,7 @@
       "fixes": ["BUNIK","NOKTA"],
       "airlines": [
         ["gia", 35],
-        ["aal", 12],
-        ["ual", 9],
-        ["asa", 8],
-        ["dal", 8],
+        ["ctv", 12],
         ["airtaxi", 12]
       ]
     },
