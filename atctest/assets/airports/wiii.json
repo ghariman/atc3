@@ -143,15 +143,6 @@
   },
   "arrivals": [
     {
-      "_name": "General arrivals",
-      "radial": [0, 359],
-      "type": "random",
-      "speed": null,
-      "frequency": [1, 2],
-      "altitude": [1500, 5000],
-      "airlines": [["lightga", 1]]
-    },
-    {
       "_name": "BUNIK",
       "radial": 355,
       "speed": 250,
