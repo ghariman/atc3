@@ -171,7 +171,7 @@
       ]
     },
     {
-      "_name": "HUBRD ONE",
+      "_name": "CARLI",
       "radial": 310,
       "heading": 140,
       "speed": 250,
@@ -180,6 +180,7 @@
       "period": 21,
       "frequency": [2, 8],
       "altitude": 10000,
+	  "fixes": ["CARLI","NOKTA"],
       "airlines": [
         ["swa", 35],
         ["aal", 12],
