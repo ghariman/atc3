@@ -192,7 +192,7 @@
     },
     {
       "_name": "DENDY",
-      "radial": 290,
+      "radial": 40,
       "heading": 115,
       "speed": 250,
       "type": "cyclic",
@@ -212,7 +212,7 @@
     },
     {
       "_name": "SPADA",
-      "radial": 80,
+      "radial": 90,
       "speed": 250,
       "type": "cyclic",
       "offset": 8,
