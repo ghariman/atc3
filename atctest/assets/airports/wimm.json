@@ -57,7 +57,9 @@
 	"PUGER": ["N3d24m6.00", "E100d17m36.00"],
 	"KABUP": ["N4d12m3.69", "E98d10m30.29"],
 	"HILIS": ["N3d45m55.62", "E98d11m57.71"],
-	"CELVI": ["N3d11m5.19", "E99d21m34.10"]
+	"CELVI": ["N3d11m5.19", "E99d21m34.10"],
+	"BANVA": ["N3d27m2.54", "E99d29m5.63"],
+	"IDANO": ["N3d59m53.81", "E98d18m4.08"]
 	
   },
   "runways": [
@@ -136,15 +138,15 @@
   },
   "arrivals": [
     {
-      "_name": "BUNIK",
-      "radial": 355,
+      "_name": "PUGER",
+      "radial": 110,
       "speed": 250,
       "type": "cyclic",
       "offset": 12,
       "period": 23,
       "frequency": [3, 12],
       "altitude": 10000,
-      "fixes": ["BUNIK","NOKTA"],
+      "fixes": ["PUGER","BANVA"],
       "airlines": [
         ["gia", 35],
 		["lni",35],
@@ -152,16 +154,15 @@
       ]
     },
     {
-      "_name": "CARLI",
-      "radial": 310,
-      "heading": 140,
+      "_name": "GOTLA",
+      "radial": 30,
       "speed": 250,
       "type": "cyclic",
       "offset": 10,
       "period": 21,
       "frequency": [2, 8],
       "altitude": 10000,
-	  "fixes": ["CARLI","NOKTA"],
+	  "fixes": ["GOTLA"],
       "airlines": [
         ["gia", 35],
 		["lni",35],
