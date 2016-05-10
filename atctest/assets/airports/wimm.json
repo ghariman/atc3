@@ -90,6 +90,15 @@
       },
       "draw": [["BONAR","GOTLA"],["NAGAH","GOTLA"]]
     },
+	"IDANO1": {
+      "icao": "IDANO1",
+      "name": "IDANO One",
+      "rwy": {
+        "23": ["BONAR","IDANO"],
+		"05": ["NAGAH","IDANO"]
+      },
+      "draw": [["BONAR","IDANO"],["NAGAH","IDANO"]]
+    },
     "BANVA1": {
       "icao": "BANVA1",
       "name": "Banva One",
@@ -116,7 +125,7 @@
     "type": "cyclic",
     "offset": 0,
     "period": 30,
-    "frequency": [13, 24]
+    "frequency": [10, 20]
   },
   "arrivals": [
     {
@@ -126,7 +135,7 @@
       "type": "cyclic",
       "offset": 12,
       "period": 23,
-      "frequency": [3, 12],
+      "frequency": [3, 8],
       "altitude": 10000,
       "fixes": ["BANVA","NAGAH"],
       "airlines": [
@@ -163,7 +172,7 @@
       "type": "cyclic",
       "offset": 15,
       "period": 18,
-      "frequency": [1, 4],
+      "frequency": [5, 10],
       "altitude": 10000,
 	  "fixes": ["DALEM","BANVA","NAGAH"],
       "airlines": [
