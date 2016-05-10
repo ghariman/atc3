@@ -223,6 +223,9 @@ function airline_init() {
   airline_load("LNI");
   airline_load("CTV");
   airline_load("SJY");
+  airline_load("AWQ");
+  airline_load("BTK");
+  airline_load("SLK");
 }
 
 function airline_load(icao) {
