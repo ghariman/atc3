@@ -72,50 +72,32 @@
     }
   ],
   "sids": {
-      "DKI2": {
-      "icao": "DKI2",
-      "name": "Jakarta Two",
+      "DALEM1": {
+      "icao": "DALEM1",
+      "name": "Dalem One",
       "rwy": {
-        "25R": ["GL", "DKIR",["DKI","A12+"]],
-        "25L": ["GR", "DKIR",["DKI","A12+"]],
-		"07L": ["CR", ["DKI","A12+"]],
-		"07R": ["CL", ["DKI","A12+"]]
+        "23": ["BONAR","DALEM"],
+		"05": ["NAGAH","DALEM"]
       },
-      "transitions": {
-        "DENDY": ["DENDY"],
-		"LEPAS": ["LEPAS"],
-		"SPADA": ["SPADA"]
-      },
-      "draw": [["DKIR","DKI", "DENDY*"],["DKIR","DKI","LEPAS*"],["DKIR","DKI","SPADA*"]]
+      "draw": [["BONAR","DALEM"],["NAGAH","DALEM"]]
     },
-    "HALIM1": {
-      "icao": "HALIM1",
-      "name": "Halim One",
+    "GOTLA1": {
+      "icao": "GOTLA1",
+      "name": "Gotla One",
       "rwy": {
-        "25R": ["GL", "HLM"],
-        "25L": ["GR", "HLM"]
+        "23": ["BONAR","GOTLA"],
+		"05": ["NAGAH","GOTLA"]
       },
-      "transitions": {
-        "KASAL": ["KASAL"],
-		"PW": ["PW"],
-		"RENDA": ["RENDA"]
-      },
-      "draw": [["HLM", "KASAL*"],["HLM","PW*"],["HLM","RENDA*"]]
+      "draw": [["BONAR","GOTLA"],["NAGAH","GOTLA"]]
     },
-    "CKG2": {
-      "icao": "CKG2",
-      "name": "Cengkareng Two",
+    "BANVA1": {
+      "icao": "BANVA1",
+      "name": "Banva One",
       "rwy": {
-        "25R": ["GL", "SIKAD"],
-        "25L": ["GR", "SIKAD"],
-		"07L": ["CR","SIKAD"],
-		"07R": ["CL","SIKAD"]
+        "23": ["BONAR","BANVA"],
+		"05": ["NAGAH","BANVA"]
       },
-      "transitions": {
-		"DOLTA": ["DOLTA"],
-		"TULIP": ["TULIP"]
-      },
-      "draw": [["SIKAD","DOLTA*"],["SIKAD","TULIP*"]]
+      "draw": [["BONAR","BANVA"],["NAGAH","BANVA"]]
     }
   },
   "departures": {
