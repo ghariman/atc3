@@ -1,8 +1,8 @@
 {
-  "name": "Seokarno-Hatta International Airport",
+  "name": "Soekarno-Hatta International Airport",
   "level": "medium",
   "radio": {
-    "twr": "Seokarno-Hatta Tower",
+    "twr": "Soekarno-Hatta Tower",
     "app": "Jakarta Approach",
     "dep": "Jakarta Departure"
   },
