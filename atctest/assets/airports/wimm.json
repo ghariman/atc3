@@ -85,6 +85,7 @@
       },
 	  	  "transitions": {
         "MEDIA": ["MEDIA"]
+		      },
       "draw": [["BONAR","DALEM","MEDIA*"],["NAGAH","DALEM","MEDIA*"]]
     },
     "GOTLA1": {
@@ -96,6 +97,7 @@
       },
 	  "transitions": {
         "GOTLA": ["GOTLA"]
+		      },
       "draw": [["BONAR","ATARO","GOTLA*"],["NAGAH","ATARO","GOTLA*"]]
     },
 	"IDANO1": {
@@ -107,6 +109,7 @@
       },
 	  "transitions": {
         "DUAMO": ["DUAMO"]
+		      },
       "draw": [["BONAR","IDANO","DUAMO*"],["NAGAH","IDANO","DUAMO*"]]
     },
     "BANVA1": {
