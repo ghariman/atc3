@@ -79,7 +79,7 @@
 		"LEPAS": ["LEPAS"],
 		"SPADA": ["SPADA"]
       },
-      "draw": [["_DKIR","DKI", "DENDY*"],["DKIR","DKI","LEPAS*"],["_DKIR","DKI","SPADA*"]]
+      "draw": [["_DKIR","DKI", "DENDY*"],["_DKIR","DKI","LEPAS*"],["_DKIR","DKI","SPADA*"]]
     },
     "HALIM1": {
       "icao": "HALIM1",
