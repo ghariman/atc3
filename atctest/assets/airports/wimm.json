@@ -111,7 +111,7 @@
 		["slk", 35]
     ],
     "destinations": [
-      "HALIM1", "CKG2", "DKI2"
+      "DALEM1", "GOTLA1", "BANVA1"
     ],
     "type": "cyclic",
     "offset": 0,
