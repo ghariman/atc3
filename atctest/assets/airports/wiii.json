@@ -1,6 +1,6 @@
 {
   "name": "Seokarno-Hatta International Airport",
-  "level": "easy",
+  "level": "medium",
   "radio": {
     "twr": "Seokarno-Hatta Tower",
     "app": "Jakarta Approach",
@@ -23,7 +23,7 @@
   "fixes": {
 	
 	"DKI": ["S5d57.7m0", "E107d2.1m0"],
-	"DKIR": ["S6d1m24.44", "E106d39m11.46"],
+	"_DKIR": ["S6d1m24.44", "E106d39m11.46"],
 	"CKG": ["S6d11.3m0", "E106d31.8m0"],
 	"HLM": ["S6d16.3m0", "E106d53.2m0"],
 	"PW": ["S6d34.0m0", "E107d27.0m0"],
@@ -69,8 +69,8 @@
       "icao": "DKI2",
       "name": "Jakarta Two",
       "rwy": {
-        "25R": ["GL", "DKIR",["DKI","A12+"]],
-        "25L": ["GR", "DKIR",["DKI","A12+"]],
+        "25R": ["GL", "_DKIR",["DKI","A12+"]],
+        "25L": ["GR", "_DKIR",["DKI","A12+"]],
 		"07L": ["CR", ["DKI","A12+"]],
 		"07R": ["CL", ["DKI","A12+"]]
       },
@@ -79,7 +79,7 @@
 		"LEPAS": ["LEPAS"],
 		"SPADA": ["SPADA"]
       },
-      "draw": [["DKIR","DKI", "DENDY*"],["DKIR","DKI","LEPAS*"],["DKIR","DKI","SPADA*"]]
+      "draw": [["_DKIR","DKI", "DENDY*"],["DKIR","DKI","LEPAS*"],["_DKIR","DKI","SPADA*"]]
     },
     "HALIM1": {
       "icao": "HALIM1",
@@ -143,7 +143,11 @@
       "airlines": [
         ["gia", 35],
 		["lni",35],
-		["ctv",20]
+		["ctv",20],
+		["eva/long",5],
+		["cpa",10],
+		["jal/long",5],
+		["kal/long",5]
       ]
     },
     {

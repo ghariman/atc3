@@ -122,11 +122,7 @@
     "airlines": [
         ["gia", 35],
 		["lni",35],
-		["ctv",20],
-		["eva/long",5],
-		["cpa",10],
-		["jal/long",5],
-		["kal/long",5]
+		["ctv",20]
     ],
     "destinations": [
       "HALIM1", "CKG2", "DKI2"
