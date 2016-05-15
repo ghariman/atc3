@@ -1060,6 +1060,7 @@ function airport_init() {
   airport_load("ksan");
   airport_load("ksea");
   airport_load("ksfo");
+  airport_load("ksfose");
   airport_load("loww");
   airport_load("ltba");
   airport_load("saez");
@@ -1070,8 +1071,7 @@ function airport_init() {
   airport_load("eddf");
   airport_load("wiii");
   airport_load("wimm");
-  airport_load("ksfose");
-  airport_load("ksjc");
+
 }
 
 function airport_ready() {
