@@ -250,7 +250,7 @@
       "radial":   60,
       "heading":  170,
       "speed":    250,
-      "fixes":   ["MOVDD", "RISTI", "CEDES"],
+      "fixes":   ["GROAN", "LOCKE", "UPEND"],
       "airlines":  [
         ["ual", 5],
         ["ual/long", 2],
