@@ -28,6 +28,8 @@
 	"SHAKE": ["N37d45m40.24", "W122d16m41.42"],
 	"ROGGE": ["N37d42m12.99", "W122d18m59.27"],
 	"OAK": ["N37d43m33.31", "N122d13m24.92"],
+	"SEWEC": ["N37d33.28m0", "N122d6.54m0"],
+	"HOXIK": ["N37d21.44m0", "W121d58.69m0"],
     "WAGES": ["N36d50m46.00", "W121d44m22.00"],
     "HEMAN": ["N37d32m1.86", "W122d10m24.00"],
     "CZQ": ["N36d53m3.56", "W119d48m54.48"],
@@ -152,7 +154,7 @@
         "19L": ["BARTN","BOWER","ALTAM"],
         "19R": ["BARTN","BOWER","ALTAM"]
       },
-      "body": [["SEGUL", "A160+"], ["CYPRS", "A220+"], "MCKEY"],
+      "body": [["BARTN","BOWER","ALTAM"],
       "transitions": {
         "SAC": ["SAC"],
         "LIN": ["LIN"]
@@ -167,16 +169,18 @@
         "1L" : [["SEPDY", "A19+"], "PORTE"],
         "1R" : [["SEPDY", "A19+"], "PORTE"],
         "28L": [["SENZY", "A25+"], "PORTE"],
-        "28R": [["SENZY", "A25+"], "PORTE"]
+        "28R": [["SENZY", "A25+"], "PORTE"],
+		"10L" : ["SEWEC","HOXIK"],
+        "10R" : ["SEWEC","HOXIK"]
       },
-      "body": ["OSI", "WAGES"],
+      "body": ["WAGES"],
       "transitions": {
           "CZQ": ["CZQ"],
           "PXE": ["PXE"],
           "FLW": ["FLW"],
           "AVE": ["AVE"]
       },
-      "draw": [["SEPDY","PORTE"], ["SENZY","PORTE","OSI","WAGES"], ["WAGES","CZQ*"], ["WAGES","AVE*"], ["WAGES","PXN*"], ["WAGES", "FLW*"]]
+      "draw": [["SEPDY","PORTE"], ["SENZY","PORTE","OSI","WAGES"], ["SEWEC","HOXIK"], ["WAGES","CZQ*"], ["WAGES","AVE*"], ["WAGES","PXN*"], ["WAGES", "FLW*"]]
     },
     
 	"QUIET7": {
