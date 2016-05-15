@@ -1,5 +1,5 @@
 {
-  "name": "San Francisco International Airport SE",
+  "name": "San Francisco International Airport South East",
   "level": "medium",
   "radio": {
     "twr": "San Francisco Tower",
@@ -17,8 +17,8 @@
   "rr_center": ["N37.6195", "W122.3738333"],
   "has_terrain": true,
   "wind": {
-    "angle": 310,
-    "speed": 5
+    "angle": 51,
+    "speed": 15
   },
   "fixes": {
   	"ALTAM": ["N37d48.73m0", "W121d44.83m0"],
@@ -143,23 +143,21 @@
     }
   ],
   "sids": {
-    "OFFSH9": {
-      "icao": "OFFSH9",
-      "name": "Offshore Nine",
+    "DUMB8": {
+      "icao": "DUMB8",
+      "name": "Dumbarton Eight",
       "rwy": {
-        "1L" : [["SEPDY", "A16+"], "WAMMY"],
-        "1R" : [["SEPDY", "A16+"], "WAMMY"],
-        "28L": [["SENZY", "A25+"], "WAMMY"],
-        "28R": [["SENZY", "A25+"], "WAMMY"]
+        "10L" : ["BARTN","BOWER","ALTAM"],
+        "10R" : ["BARTN","BOWER","ALTAM"],
+        "19L": ["BARTN","BOWER","ALTAM"],
+        "19R": ["BARTN","BOWER","ALTAM"]
       },
       "body": [["SEGUL", "A160+"], ["CYPRS", "A220+"], "MCKEY"],
       "transitions": {
-        "FLW": ["MQO", "FLW"],
-        "RZS": ["MQO", "RZS"],
-        "GVO": ["MQO", "GVO"],
-        "SXC": ["DAISY", "BENET", "SXC"]
+        "SAC": ["SAC"],
+        "LIN": ["LIN"]
       },
-      "draw": [["SEPDY","WAMMY"], ["SENZY","WAMMY","SEGUL","CYPRS","MCKEY"], ["MCKEY","MQO"], ["MQO","FLW*"], ["MQO","RZS*"], ["MQO","GVO*"], ["MCKEY","DAISY","BENET","SXC*"]]
+      "draw": [["BARTN","BOWER","ALTAM"],["ALTAM","SAC*"],["ALTAM","LIN*"]]
     },
     
   "PORTE7": {
@@ -248,7 +246,7 @@
   "arrivals": [
     {
       "radial":   60,
-      "heading":  170,
+      "heading":  245,
       "speed":    250,
       "fixes":   ["GROAN", "LOCKE", "UPEND"],
       "airlines":  [
