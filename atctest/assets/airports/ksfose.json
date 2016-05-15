@@ -170,8 +170,8 @@
         "1R" : [["SEPDY", "A19+"], "PORTE"],
         "28L": [["SENZY", "A25+"], "PORTE"],
         "28R": [["SENZY", "A25+"], "PORTE"],
-		"10L": ["SEWEC","HOXIK"],
-        "10R": ["SEWEC","HOXIK"]
+		"10L": ["SEWEC", "HOXIK"],
+        "10R": ["SEWEC", "HOXIK"]
       },
       "body": ["WAGES"],
       "transitions": {
