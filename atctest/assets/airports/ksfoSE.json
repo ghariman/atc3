@@ -21,13 +21,6 @@
     "speed": 5
   },
   "fixes": {
-	"ALTAM": ["N37d48.73m0", "W121d44.83m0"],
-	"BOWER": ["N37d40.45m0", "W121d55.43m0"],
-	"BARTN": ["N37d32.91m0", "W122d05.03m0"],
-	"COMMO": ["N37d52.45m0", "W122d29.52m0"],
-	"SHAKE": ["N37d45m40.24", "W122d16m41.42"],
-	"ROGGE": ["N37d42d12.99", "W122d18m59.27"],
-	"OAK": ["N37d43m33.31", "N122d13m24.92"],
     "WAGES": ["N36d50m46.00", "W121d44m22.00"],
     "HEMAN": ["N37d32m1.86", "W122d10m24.00"],
     "CZQ": ["N36d53m3.56", "W119d48m54.48"],
@@ -250,7 +243,7 @@
       "radial":   60,
       "heading":  170,
       "speed":    250,
-      "fixes":   ["GROAN", "LOCKE", "UPEND"],
+      "fixes":   ["MOVDD", "RISTI", "CEDES"],
       "airlines":  [
         ["ual", 5],
         ["ual/long", 2],
