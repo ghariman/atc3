@@ -6,7 +6,7 @@
     "app": "NorCal Approach",
     "dep": "NorCal Departure"
   },
-  "icao": "KSFO",
+  "icao": "KSFOSE",
   "iata": "SFO",
   "magnetic_north": 13.7,
   "ctr_radius": 80,
