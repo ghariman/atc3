@@ -1071,6 +1071,7 @@ function airport_init() {
   airport_load("wiii");
   airport_load("wimm");
   airport_load("ksfose");
+  airport_load("ksjc");
 }
 
 function airport_ready() {
