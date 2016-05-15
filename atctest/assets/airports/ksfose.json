@@ -149,12 +149,12 @@
       "icao": "DUMB8",
       "name": "Dumbarton Eight",
       "rwy": {
-        "10L" : ["BARTN"],
+        "10L" : ["BARTN","BOWER","ALTAM"],
         "10R" : ["BARTN","BOWER","ALTAM"],
         "19L": ["BARTN","BOWER","ALTAM"],
         "19R": ["BARTN","BOWER","ALTAM"]
       },
-      "body": [["BARTN","BOWER","ALTAM"]],
+      "body": ["BARTN","BOWER","ALTAM"],
       "transitions": {
         "SAC": ["SAC"],
         "LIN": ["LIN"]
