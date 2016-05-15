@@ -1070,6 +1070,7 @@ function airport_init() {
   airport_load("eddf");
   airport_load("wiii");
   airport_load("wimm");
+  airport_load("ksfose");
 }
 
 function airport_ready() {
