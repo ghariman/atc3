@@ -240,10 +240,10 @@
   },
   "arrivals": [
     {
-      "radial":   60,
-      "heading":  245,
+      "radial":   90,
+      "heading":  270,
       "speed":    250,
-      "fixes":   ["GROAN", "LOCKE", "UPEND"],
+      "fixes":   ["LOCKE", "UPEND"],
       "airlines":  [
         ["ual", 5],
         ["ual/long", 2],
