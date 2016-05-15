@@ -181,7 +181,7 @@
           "FLW": ["FLW"],
           "AVE": ["AVE"]
       },
-      "draw": [["SEPDY","PORTE"], ["SENZY","PORTE","OSI","WAGES"], ["SEWEC","HOXIK"],["WAGES","CZQ*"], ["WAGES","AVE*"], ["WAGES","PXN*"], ["WAGES", "FLW*"]]
+      "draw": [["SEPDY","PORTE"], ["SENZY","PORTE","OSI","WAGES"], ["SEWEC","HOXIK","WAGES"],["WAGES","CZQ*"], ["WAGES","AVE*"], ["WAGES","PXN*"], ["WAGES", "FLW*"]]
     },
     
     
