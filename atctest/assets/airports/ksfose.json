@@ -155,6 +155,20 @@
       },
       "draw": [["BARTN","BOWER","ALTAM"],["ALTAM","SAC*"],["ALTAM","LIN*"]]
     },
+	
+	  "LUVVE4": {
+      "icao": "LUVVE4",
+      "name": "Love four",
+      "rwy": {
+        "10L" : ["LUVVE","OSI"],
+        "10R" : ["LUVVE","OSI"]
+      },
+      "body": ["LUVVE","OSI"],
+      "transitions": {
+        "PIRAT": ["PIRAT"]
+      },
+      "draw": [["LUVVE","OSI","PIRAT*"]]
+    },
     
   "PORTE7": {
       "icao": "PORTE7",
@@ -218,7 +232,7 @@
 	  ["jbu", 5]
     ],
     "destinations": [
-      "MOLEN7", "DUMB8", "PORTE7"
+      "MOLEN7", "DUMB8", "PORTE7","LUVVE4"
     ],
     "type": "random",
     "offset": 0,
