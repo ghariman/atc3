@@ -169,16 +169,18 @@
         "1L" : [["SEPDY", "A19+"], "PORTE"],
         "1R" : [["SEPDY", "A19+"], "PORTE"],
         "28L": [["SENZY", "A25+"], "PORTE"],
-        "28R": [["SENZY", "A25+"], "PORTE"]
+        "28R": [["SENZY", "A25+"], "PORTE"],
+		"10L": ["SEWEC","HOXIK"],
+        "10R": ["SEWEC","HOXIK"]
       },
-      "body": ["OSI", "WAGES"],
+      "body": ["WAGES"],
       "transitions": {
           "CZQ": ["CZQ"],
           "PXE": ["PXE"],
           "FLW": ["FLW"],
           "AVE": ["AVE"]
       },
-      "draw": [["SEPDY","PORTE"], ["SENZY","PORTE","OSI","WAGES"], ["WAGES","CZQ*"], ["WAGES","AVE*"], ["WAGES","PXN*"], ["WAGES", "FLW*"]]
+      "draw": [["SEPDY","PORTE"], ["SENZY","PORTE","OSI","WAGES"], ["SEWEC","HOXIK"],["WAGES","CZQ*"], ["WAGES","AVE*"], ["WAGES","PXN*"], ["WAGES", "FLW*"]]
     },
     
 	"QUIET7": {
@@ -239,7 +241,7 @@
       ["vir", 2]
     ],
     "destinations": [
-      "MOLEN7", "DUMB8", "PORTE7", "QUIET7"
+      "MOLEN7", "DUMB8", "PORTE7"
     ],
     "type": "random",
     "offset": 0,
