@@ -17,7 +17,7 @@
   "rr_center": ["N37.6195", "W122.3738333"],
   "has_terrain": true,
   "wind": {
-    "angle": 51,
+    "angle": 100,
     "speed": 15
   },
   "fixes": {
@@ -183,25 +183,6 @@
       "draw": [["SEPDY","PORTE"], ["SENZY","PORTE","OSI","WAGES"], ["SEWEC","HOXIK"],["WAGES","CZQ*"], ["WAGES","AVE*"], ["WAGES","PXN*"], ["WAGES", "FLW*"]]
     },
     
-	"QUIET7": {
-      "icao": "QUIET7",
-      "name": "Quiet Seven",
-      "rwy": {
-        "1L" : ["SASLY", "REBAS"],
-        "1R" : ["SASLY", "REBAS"],
-        "28L": ["REBAS"],
-        "28R": ["REBAS"]
-      },
-      "body": [],
-      "transitions": {
-        "ENI": ["SASSU", "ENI"],
-        "RBL": ["SASSU", "SAWNA", "RBL"],
-        "CIC": ["SASSU", "SAWNA", "CIC"],
-        "SAC": ["SAC"],
-        "LIN": ["LIN"]
-      },
-      "draw": [["SASLY","REBAS"], ["REBAS","SASSU"], ["SASSU","ENI*"], ["SASSU","SAWNA"], ["SAWNA","RBL*"], ["SAWNA","CIC*"], ["REBAS","SAC*"], ["REBAS","LIN*"]]
-    },
     
 	"MOLEN7": {
       "icao": "MOLEN7",
