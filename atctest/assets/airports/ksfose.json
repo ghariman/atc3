@@ -239,7 +239,9 @@
         ["aal", 5],
         ["aal/long", 2],
         ["asa", 1],
-        ["fdx", 1]
+        ["fdx", 1],
+		["vrd", 5],
+		["jbu", 5]
       ],
       "type": "wave",
       "offset": 0,
@@ -284,7 +286,8 @@
         ["afr/long", 2],
         ["uae", 4],
         ["kal/long", 2],
-        ["fastga", 1]
+        ["fastga", 1],
+		["vrd",5]
       ],
       "type": "cyclic",
       "frequency": 6,
@@ -293,7 +296,7 @@
 	{
       "radial":   240,
       "speed":    250,
-      "fixes":    ["PIRAT", "HADLY"],
+      "fixes":    ["PIRAT", "HADLY", "SAU"],
       "airlines":  [
         ["ual/long", 5],
         ["aal/long", 2],
