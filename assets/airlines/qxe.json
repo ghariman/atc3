@@ -1,0 +1,16 @@
+{
+    "icao": "qxe",
+    "name": "Horizon Air",
+    "callsign": {
+        "name": "Horizon",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["DH8D", 45],
+            ["E170", 14]
+        ]
+    }
+}

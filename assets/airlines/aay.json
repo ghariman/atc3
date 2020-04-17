@@ -1,0 +1,29 @@
+{
+    "icao": "aay",
+    "name": "Allegiant Air",
+    "callsign": {
+        "name": "Allegiant",
+        "callsignFormats": [
+            "####",
+            "###"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["A319", 31],
+            ["A320", 41],
+            ["B752", 5],
+            ["MD83", 34],
+            ["MD88", 4]
+        ],
+        "long": [
+            ["B752", 5]
+        ],
+        "short": [
+            ["A319", 31],
+            ["A320", 41],
+            ["MD83", 34],
+            ["MD88", 4]
+        ]
+    }
+}

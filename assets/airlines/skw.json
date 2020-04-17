@@ -1,0 +1,18 @@
+{
+    "icao": "skw",
+    "name": "SkyWest",
+    "callsign": {
+        "name": "SkyWest",
+        "callsignFormats": [
+            "####"
+        ]
+    },
+    "fleets": {
+        "default": [
+            ["CRJ2", 204],
+            ["CRJ7", 88],
+            ["CRJ9", 36],
+            ["E170", 117]
+        ]
+    }
+}
